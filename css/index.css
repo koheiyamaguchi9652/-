@@ -6,15 +6,18 @@ top: 100px;
 left: 50px;
 background-color: #d0d0d0;
 }
+
 .first-view {
-    height: calc(100vh - 110px);
+    min-height: 100vh;
     background-image: url(../images/index/彦根城.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
 }
+
 .first-view-text {
     width: 100%;
     max-width: 1200px;
@@ -106,7 +109,7 @@ position: fixed;
 top: 0;
 left: 0;
 right: 0;
-background-color: #ff2929;
+background-color: #87CEFA;
 height: 50px;
 z-index: 10;
 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -135,7 +138,7 @@ display: none;
 display: block;
 }
 .main {
-padding-top: 50px;
+padding-top: 100px;
 }
 .footer-logo {
 margin-top: 60px;
