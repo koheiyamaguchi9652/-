@@ -1,3 +1,15 @@
+.title {
+height: 210px;
+background-image: url(../images/history/bg-main.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #800200;
+}
 .image-group {
   display: flex;
   justify-content: center;
